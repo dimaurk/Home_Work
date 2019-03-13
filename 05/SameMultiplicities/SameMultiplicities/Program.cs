@@ -63,7 +63,7 @@ namespace SameMultiplicities
 
                 if (n == (int)n && number != 0)
                 {
-                    check = true; ;
+                    check = true;
                 }
 
             return check;
