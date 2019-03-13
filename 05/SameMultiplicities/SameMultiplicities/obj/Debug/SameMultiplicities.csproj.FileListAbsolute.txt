@@ -1,0 +1,6 @@
+D:\Юрков\SameMultiplicities\SameMultiplicities\bin\Debug\SameMultiplicities.exe.config
+D:\Юрков\SameMultiplicities\SameMultiplicities\bin\Debug\SameMultiplicities.exe
+D:\Юрков\SameMultiplicities\SameMultiplicities\bin\Debug\SameMultiplicities.pdb
+D:\Юрков\SameMultiplicities\SameMultiplicities\obj\Debug\SameMultiplicities.exe
+D:\Юрков\SameMultiplicities\SameMultiplicities\obj\Debug\SameMultiplicities.pdb
+D:\Юрков\SameMultiplicities\SameMultiplicities\obj\Debug\SameMultiplicities.csprojResolveAssemblyReference.cache
