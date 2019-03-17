@@ -1,0 +1,14 @@
+D:\С#\Home Work\3\Task02\Task02\bin\Debug\Task02.exe.config
+D:\С#\Home Work\3\Task02\Task02\bin\Debug\Task02.exe
+D:\С#\Home Work\3\Task02\Task02\bin\Debug\Task02.pdb
+D:\С#\Home Work\3\Task02\Task02\obj\Debug\Task02.csprojAssemblyReference.cache
+D:\С#\Home Work\3\Task02\Task02\obj\Debug\Task02.csproj.CoreCompileInputs.cache
+D:\С#\Home Work\3\Task02\Task02\obj\Debug\Task02.exe
+D:\С#\Home Work\3\Task02\Task02\obj\Debug\Task02.pdb
+D:\С#\Home Work\3\Task02 — копия\Task02\obj\Debug\Task02.csprojAssemblyReference.cache
+D:\С#\Home Work\3\Task02 — копия\Task02\obj\Debug\Task02.csproj.CoreCompileInputs.cache
+D:\С#\Home Work\3\Task02 — копия\Task02\obj\Debug\Task02.exe
+D:\С#\Home Work\3\Task02 — копия\Task02\obj\Debug\Task02.pdb
+D:\С#\Home Work\3\Task02 — копия\Task02\bin\Debug\Task02.exe.config
+D:\С#\Home Work\3\Task02 — копия\Task02\bin\Debug\Task02.exe
+D:\С#\Home Work\3\Task02 — копия\Task02\bin\Debug\Task02.pdb
