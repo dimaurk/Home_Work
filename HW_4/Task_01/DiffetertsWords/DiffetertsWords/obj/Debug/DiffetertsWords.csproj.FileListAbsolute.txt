@@ -1,0 +1,7 @@
+D:\С#\Home Work\HW_4\Task_01\DiffetertsWords\DiffetertsWords\obj\Debug\DiffetertsWords.csprojAssemblyReference.cache
+D:\С#\Home Work\HW_4\Task_01\DiffetertsWords\DiffetertsWords\obj\Debug\DiffetertsWords.csproj.CoreCompileInputs.cache
+D:\С#\Home Work\HW_4\Task_01\DiffetertsWords\DiffetertsWords\bin\Debug\DiffetertsWords.exe.config
+D:\С#\Home Work\HW_4\Task_01\DiffetertsWords\DiffetertsWords\bin\Debug\DiffetertsWords.exe
+D:\С#\Home Work\HW_4\Task_01\DiffetertsWords\DiffetertsWords\bin\Debug\DiffetertsWords.pdb
+D:\С#\Home Work\HW_4\Task_01\DiffetertsWords\DiffetertsWords\obj\Debug\DiffetertsWords.exe
+D:\С#\Home Work\HW_4\Task_01\DiffetertsWords\DiffetertsWords\obj\Debug\DiffetertsWords.pdb
