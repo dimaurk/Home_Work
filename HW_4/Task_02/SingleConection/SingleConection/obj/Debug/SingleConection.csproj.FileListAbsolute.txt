@@ -1,0 +1,7 @@
+D:\С#\Home Work\HW_4\Task_02\SingleConection\SingleConection\bin\Debug\SingleConection.exe.config
+D:\С#\Home Work\HW_4\Task_02\SingleConection\SingleConection\bin\Debug\SingleConection.exe
+D:\С#\Home Work\HW_4\Task_02\SingleConection\SingleConection\bin\Debug\SingleConection.pdb
+D:\С#\Home Work\HW_4\Task_02\SingleConection\SingleConection\obj\Debug\SingleConection.csprojAssemblyReference.cache
+D:\С#\Home Work\HW_4\Task_02\SingleConection\SingleConection\obj\Debug\SingleConection.csproj.CoreCompileInputs.cache
+D:\С#\Home Work\HW_4\Task_02\SingleConection\SingleConection\obj\Debug\SingleConection.exe
+D:\С#\Home Work\HW_4\Task_02\SingleConection\SingleConection\obj\Debug\SingleConection.pdb
