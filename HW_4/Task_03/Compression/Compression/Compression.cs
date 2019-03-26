@@ -5,40 +5,40 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.IO.Compression;
 
 namespace Compression
 {
     class Compression
     {
 
-        public static string _str = string.Empty;
-
-        public void GetCompression(string str)
+        public void GetCompression(string sourceFile, string compressedFile)
         {
-            _str = str;
-
-            using (StreamReader reader = new StreamReader(@"goncharov_ivan-obyknovennaja_istorija.txt", Encoding.Default))
+            using (FileStream readStr = new FileStream(sourceFile, FileMode.OpenOrCreate))
             {
-                str = reader.ReadToEnd();
-            }
-
-            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"pack.txt"))
-            {
-                file.Write((new Regex("Гончаров")).Replace(str, "010"));
+                using (FileStream writeStr = File.Create(compressedFile))
+                {
+                    using (GZipStream archiveStr = new GZipStream(writeStr, CompressionMode.Compress))
+                    {
+                        readStr.CopyTo(archiveStr);
+                        Console.WriteLine("Сжатие файла {0} завершено. Исходный размер: {1}  сжатый размер: {2}.",
+                            sourceFile, readStr.Length.ToString(), writeStr.Length.ToString());
+                    }
+                }
             }
         }
-        public void GetDecompression(string str)
+        public void GetDecompression(string compressedFile, string targetFile)
         {
-            _str = str;
-
-            using (StreamReader reader = new StreamReader(@"pack.txt"))
+            using (FileStream readStr = new FileStream(compressedFile, FileMode.OpenOrCreate))
             {
-                str = reader.ReadToEnd();
-            }
-
-            using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"unpack.txt"))
-            {
-                file.Write((new Regex("010")).Replace(str, "Гончаров"));
+                using (FileStream writeStr = File.Create(targetFile))
+                {
+                    using (GZipStream unarchiveStr = new GZipStream(readStr, CompressionMode.Decompress))
+                    {
+                        unarchiveStr.CopyTo(writeStr);
+                        Console.WriteLine("Восстановлен файл: {0}", targetFile);
+                    }
+                }
             }
         }
     }

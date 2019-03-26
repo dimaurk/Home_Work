@@ -5,3 +5,10 @@ D:\С#\Home Work\HW_4\Task_03\Compression\Compression\obj\Debug\Compression.cspr
 D:\С#\Home Work\HW_4\Task_03\Compression\Compression\obj\Debug\Compression.csproj.CoreCompileInputs.cache
 D:\С#\Home Work\HW_4\Task_03\Compression\Compression\obj\Debug\Compression.exe
 D:\С#\Home Work\HW_4\Task_03\Compression\Compression\obj\Debug\Compression.pdb
+D:\С#\Home Work\HW_4\Task_03 — копия\Compression\Compression\bin\Debug\Compression.exe.config
+D:\С#\Home Work\HW_4\Task_03 — копия\Compression\Compression\bin\Debug\Compression.exe
+D:\С#\Home Work\HW_4\Task_03 — копия\Compression\Compression\bin\Debug\Compression.pdb
+D:\С#\Home Work\HW_4\Task_03 — копия\Compression\Compression\obj\Debug\Compression.csprojAssemblyReference.cache
+D:\С#\Home Work\HW_4\Task_03 — копия\Compression\Compression\obj\Debug\Compression.csproj.CoreCompileInputs.cache
+D:\С#\Home Work\HW_4\Task_03 — копия\Compression\Compression\obj\Debug\Compression.exe
+D:\С#\Home Work\HW_4\Task_03 — копия\Compression\Compression\obj\Debug\Compression.pdb

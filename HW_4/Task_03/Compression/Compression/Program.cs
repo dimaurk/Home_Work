@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.IO.Compression;
 using System.Text.RegularExpressions;
 
 namespace Compression
@@ -13,11 +14,13 @@ namespace Compression
         static void Main(string[] args)
         {
             Compression first = new Compression();
-            string str1 = Compression._str;
+            string read = "goncharov_ivan-obyknovennaja_istorija.txt";
+            string compr = "pack.txt";
+            string uncompr = "unpack.txt";
 
-            first.GetCompression(str1);
-            first.GetDecompression(str1);
-            Console.WriteLine("Файл 'сжат' и 'восстановлен'");
+            first.GetCompression(read, compr);
+            first.GetDecompression(compr, uncompr);
+
             Console.ReadLine();
         }
     }
