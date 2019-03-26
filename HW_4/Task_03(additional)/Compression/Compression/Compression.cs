@@ -11,32 +11,32 @@ namespace Compression
 {
     class Compression
     {
-
-        public void GetCompression(string sourceFile, string compressedFile)
+        public void GetCompression(string readFile, string compFile)
         {
-            using (FileStream readStr = new FileStream(sourceFile, FileMode.OpenOrCreate))
+            using (FileStream readStr = new FileStream(readFile, FileMode.OpenOrCreate))
             {
-                using (FileStream writeStr = File.Create(compressedFile))
+                using (FileStream writeStr = File.Create(compFile))
                 {
                     using (GZipStream archiveStr = new GZipStream(writeStr, CompressionMode.Compress))
                     {
                         readStr.CopyTo(archiveStr);
-                        Console.WriteLine("Сжатие файла {0} завершено. Исходный размер: {1}  сжатый размер: {2}.",
-                            sourceFile, readStr.Length.ToString(), writeStr.Length.ToString());
+                        Console.WriteLine($"Сжатие файла { readFile } завершено.\n");
+                        Console.WriteLine($"Исходный размер: { readStr.Length.ToString() }(байт)");
+                        Console.WriteLine($"Сжатый размер: { writeStr.Length.ToString() }(байт).\n");
                     }
                 }
             }
         }
-        public void GetDecompression(string compressedFile, string targetFile)
+        public void GetDecompression(string compFile, string uncopFile)
         {
-            using (FileStream readStr = new FileStream(compressedFile, FileMode.OpenOrCreate))
+            using (FileStream readStr = new FileStream(compFile, FileMode.OpenOrCreate))
             {
-                using (FileStream writeStr = File.Create(targetFile))
+                using (FileStream writeStr = File.Create(uncopFile))
                 {
                     using (GZipStream unarchiveStr = new GZipStream(readStr, CompressionMode.Decompress))
                     {
                         unarchiveStr.CopyTo(writeStr);
-                        Console.WriteLine("Восстановлен файл: {0}", targetFile);
+                        Console.WriteLine($"Восстановлен файл: { uncopFile }");
                     }
                 }
             }
